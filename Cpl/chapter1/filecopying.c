@@ -13,7 +13,8 @@ int main()
     }
 }
 
-/* Read a char
+/* 
+Read a char
     while (char =/= EOF)
         output char just read
         read char
