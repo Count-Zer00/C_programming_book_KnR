@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 //same as filecopy.c 
-int main()
+main()
 {
     int c;
     
