@@ -2,7 +2,7 @@
 
 //1.3 The for statement.
 
-int main()
+main()
 {
     int fahr;
 
