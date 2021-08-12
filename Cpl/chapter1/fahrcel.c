@@ -2,7 +2,7 @@
 
 //1.2 variable and arithmetic expressions
 
-int main()
+main()
 {
     int fahr, celsius, kelvin;
     int lower, upper, step;
