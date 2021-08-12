@@ -6,7 +6,7 @@
 
 //1.4 Symbolic constants
 
-int main()
+main()
 {
     int fahr;
 
