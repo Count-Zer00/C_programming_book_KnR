@@ -2,7 +2,7 @@
 
 // 1.5.1 File copy
 
-int main()
+main()
 {
     int c;
 
