@@ -1,13 +1,9 @@
 #include<stdio.h>
-
-int main() {
-
-    int c, nl, nt, ns;
-
-
-    nl = 0;
-    nt = 0;
-    ns = 0;
+//show number of blanks, tabs and spaces.
+int main() 
+{
+    int c, nl, nt, nb;
+    nl = nt = nb = 0;
 
     while ((c = getchar()) != EOF) {
         if (c == '\n')
@@ -15,9 +11,7 @@ int main() {
         if (c == '\t')
             ++nt;
         if (c == ' ')
-            ++ns;
+            ++nb;
     }
-
-    printf("Blanks: %d\nTabs: %d\nNewlines: %d\n", ns, nt, nl);
-
+    printf("Blanks: %d\nTabs: %d\nNewlines: %d\t", nb, nt, nl);
 }
