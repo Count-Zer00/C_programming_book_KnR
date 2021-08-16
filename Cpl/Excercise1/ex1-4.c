@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//celsius to fahrenheit to kelvin
 int main()
 {
     int celsius, fahr, kelvin;
