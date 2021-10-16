@@ -9,3 +9,4 @@ int strlen(char s[])
         ++i;
     return i;
 }
+//include "strlen.c" to use it.
